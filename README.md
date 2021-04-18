@@ -21,8 +21,8 @@
 
 ## Prerequisites
 
--python -m pip install urllib3
--python -m pip install cx_Freeze
+- python -m pip install urllib3
+- python -m pip install cx_Freeze
     
 
 ## Usage
