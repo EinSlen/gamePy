@@ -27,7 +27,7 @@
 
 ## Usage
 
-- python game.py
+- python grapp.py
 
 
 ## Author
